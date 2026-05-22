@@ -2,7 +2,7 @@
 
 A playground for exploring and developing an integration testing framework for Rancher Wrangler controllers.
 
-This project uses a real Kubernetes cluster (via k3d) to validate Wrangler informers, controllers, and event propagation behavior under realistic conditions.
+This project uses a k3d Kubernetes cluster to validate Wrangler informers, controllers, and event propagation behavior.
 
 ---
 
@@ -10,14 +10,14 @@ This project uses a real Kubernetes cluster (via k3d) to validate Wrangler infor
 
 This repository is a **WIP integration testing harness** for Wrangler.
 
-It focuses on validating real Kubernetes behavior such as:
+It focuses on validating Kubernetes behavior such as:
 
 - Informer event delivery (CREATE / UPDATE / DELETE)
 - Controller lifecycle startup and shutdown
 - Cache synchronization behavior
 - Interaction between Kubernetes API server and Wrangler shared informers
 
-Unlike unit tests or envtest-based setups, this project runs against a **real k3s cluster inside Docker (k3d)**.
+Unlike unit tests or envtest-based setups, this project runs against a **k3d cluster**.
 
 ---
 
