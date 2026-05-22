@@ -2,7 +2,7 @@
 
 A playground for exploring and developing an integration testing framework for Rancher Wrangler controllers.
 
-This project uses a k3d Kubernetes cluster to validate Wrangler informers, controllers, and event propagation behavior.
+This project uses a k3d cluster to validate Wrangler informers, controllers, and event propagation behavior.
 
 ---
 
